@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/LondheShubham153/argocd-demos.git # Repo containing child apps(that you have forked and cloned earlier)
+    repoURL: https://github.com/Aditya-das-4707-e/argocd-demos.git # Repo containing child apps(that you have forked and cloned earlier)
     targetRevision: main
     path: declarative_approach/online_shop  # path of Online Shop app in `argocd-demos` repo
   destination:
