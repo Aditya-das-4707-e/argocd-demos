@@ -14,8 +14,7 @@ spec:
     spec:
       containers:
       - name: online-shop
-        #image: amitabhdevops/online_shop:latest
-        image: penpotapp/frontend:latest
+        image: amitabhdevops/online_shop:latest
         ports:
         - containerPort: 3000
         resources:
