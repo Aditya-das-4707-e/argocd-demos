@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: chai-app
-        image: aditya81888/notes-app-k8s #aditya81888/chai-app:v1.0.2
+        image: aditya81888/chai-app:v1.0.2
         ports:
         - containerPort: 80
         env:
