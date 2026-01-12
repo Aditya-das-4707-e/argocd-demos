@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
       - name: online-shop
-        image: amitabhdevops/online_shop:latest
-        #image: twspeegle/chatapp
+        #image: amitabhdevops/online_shop:latest
+        image: penpotapp/frontend:latest
         ports:
         - containerPort: 3000
         resources:
