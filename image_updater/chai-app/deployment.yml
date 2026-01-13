@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: chai-app
 spec:
-  replicas: 5
+  replicas: 4
   selector:
     matchLabels:
       app: chai-app
